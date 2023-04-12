@@ -5,13 +5,6 @@ type Post = {
   body: string;
 };
 
-type WpPost = {
-  id: number;
-  title: {
-    rendered: string;
-  };
-};
-
 type User = {
   id: number;
   name: string;

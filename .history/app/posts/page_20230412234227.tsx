@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 export default async function PostsPage() {
-  const postsData: Promise<WpPost[]> = getAllPosts();
+  const postsData: Promise<Post[]> = getAllPosts();
 
   const posts = await postsData;
 
